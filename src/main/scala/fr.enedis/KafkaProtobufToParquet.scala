@@ -34,7 +34,7 @@ object KafkaProtobufToParquet extends App{
     .select(decodeProtobuf(col("value")).as("person"))
     .selectExpr("person._1 as name", "person._2 as age", "person._3 as email")
 
-  // Écriture en Parquet
+  // On ecrit en Parquet
   decodedDF.writeStream
     .format("parquet")
     .outputMode("append")
