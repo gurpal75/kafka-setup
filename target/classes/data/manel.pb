@@ -1,2 +1,0 @@
-
-manelmanel@example.com
