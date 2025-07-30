@@ -50,6 +50,11 @@
             <artifactId>spark-streaming-kafka-0-10_2.13</artifactId>
             <version>${spark.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-protobuf_2.13</artifactId>
+            <version>3.5.0</version> <!-- adapte à ta version de Spark -->
+        </dependency>
 
         <!-- Logs -->
         <dependency>

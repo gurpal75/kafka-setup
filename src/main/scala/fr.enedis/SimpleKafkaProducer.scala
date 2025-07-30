@@ -40,7 +40,7 @@ object SimpleKafkaProducer {
               log.error(s"[INSERT FAILED] ${e}")
           }
         })
-        Thread.sleep(10000)
+        Thread.sleep(1000)
     }
     producer.close()
   }
