@@ -1,2 +1,0 @@
-
-Gurpalgurpal@example.com
